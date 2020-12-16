@@ -75,9 +75,6 @@ where COLUMN_NAME like '%sequenceno%'
 order by TABLE_NAME
 
 
-
-
-
 select * from INFORMATION_SCHEMA.COLUMNS
 where COLUMN_NAME like '%sequenceno%'
 order by TABLE_NAME
@@ -149,3 +146,6 @@ SenanTable.Column4Four
 From [TrakaWEb].[dbo].[AnasTable]
 
 LEFT JOIN 
+
+
+############################################################################################################
